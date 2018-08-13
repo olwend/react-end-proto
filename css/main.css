@@ -1,0 +1,77 @@
+/*
+GLOBAL STUFF
+*/
+#js-image-target {
+	display: flex;
+}
+
+#js-image-target.grid {
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#js-image-target.list {
+	flex-direction: column;
+}
+
+.image-container {
+	max-width: 15%;
+}
+
+/*
+SINGLE PAGE STUFF
+*/
+
+.text-primary {
+  font-size: 1.3rem;
+}
+
+.single-image-container {
+	max-height: 70vh;
+	width: 35vw;
+}
+
+.single-image-container img {
+	height: 100%;
+}
+
+.download-button {
+	margin-top: 20px;
+}
+
+.copyright-notice {
+	margin-top: 20px;
+	border: 2px solid red;
+	padding: 10px;
+}
+
+.nav-left {
+	height: 100%;
+	width: 5vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.nav-left img,
+.nav-right img {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.nav-right {
+	height: 100%;
+	width: 5vw;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.img-container {
+  height: 100vh;
+  width: 88vw;
+  margin: 0 auto;
+}
+.img-lightbox-container {
+  background-color: rgba(0, 0, 0, 0.95);
+}
